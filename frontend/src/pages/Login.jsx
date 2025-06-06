@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useAppContext } from '../context/appContext';
+import { useAppContext } from '../context/AppContext';
 import axios from 'axios';
 import { toast } from 'react-toastify';
 import handleError from '../errorHandler/error';
@@ -101,7 +101,7 @@ const Login = () => {
           {' '}
           {state === 'Sign Up' ? 'Create Account' : 'Login'}
         </button>
-        <p>
+        <div>
           {state === 'Sign Up' ? (
             <p>
               Already have an account?{' '}
@@ -121,7 +121,7 @@ const Login = () => {
               </span>
             </p>
           )}
-        </p>
+        </div>
       </div>
     </form>
   );
