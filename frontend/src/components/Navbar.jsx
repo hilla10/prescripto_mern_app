@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { assets } from '../assets/assets_frontend/assets';
 import { Link, NavLink, useNavigate } from 'react-router-dom';
-import { useAppContext } from '../context/appContext';
+import { useAppContext } from '../context/AppContext';
 
 const Navbar = () => {
   const navigate = useNavigate();
