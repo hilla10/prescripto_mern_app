@@ -4,8 +4,8 @@ A full-featured, responsive Doctor Appointment web app built with the MERN stack
 
 🚀 **Live Demo**
 
-- 🛍️ Customer Frontend: [https://e-commerce-mern-app-frontend.vercel.app](https://e-commerce-mern-app-frontend.vercel.app)
-- 🛠️ Admin Dashboard: [https://e-commerce-mern-app-admin.vercel.app](https://e-commerce-mern-app-admin.vercel.app)
+- 🛍️ Customer Frontend: [https://prescripto-frontend-snowy.vercel.app](https://prescripto-frontend-snowy.vercel.app)
+- 🛠️ Admin Dashboard: [https://prescripto-admin-kappa-lovat.vercel.app](https://prescripto-admin-kappa-lovat.vercel.app)
 
 ---
 
@@ -22,20 +22,21 @@ Use the following credentials to log in as an admin:
 
 ## 📚 Features
 
-### 🧑 Customer Features
+### 👨‍⚕️ Patient Features
 
-- User registration & login
-- Product browsing & filtering
-- Shopping cart & quantity management
-- Checkout process with Stripe integration
-- View order history
+- Patient registration & login
+- Browse doctors & filter by specialization
+- Book appointments
+- Pay securely via Stripe
+- View appointment history
 
-### 🛠️ Admin Features
+### 🛠️ Admin/Doctor Features
 
-- Secure login
-- Dashboard with order and product stats
-- Product CRUD (create, update, delete)
-- Order status management
+-Secure admin login
+-Dashboard with appointment statistics
+-Manage doctor profiles
+-Approve/reject appointments
+-Update appointment statuses
 
 ---
 
@@ -75,15 +76,15 @@ Use the following credentials to log in as an admin:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/hilla10/e-commerce-mern-app.git
-cd e-commerce-mern-app
+git clone https://github.com/hilla10/prescripto_mern_app.git
+cd prescripto_mern_app
 
 ```
 
-### 2. Backen Setup
+### 2. Backend Setup
 
 ```
-cd server
+cd backend
 npm install
 npm run dev
 
@@ -94,6 +95,7 @@ STRIPE_SECRET_KEY=your_stripe_secret_key
 CLOUDINARY_NAME = your_cloudinary_name
 CLOUDINARY_API_KEY = your_cloudinary_api_key
 CLOUDINARY_SECRET_KEY= your_cloudinary_secret_key
+
 ```
 
 ### 3. Client Setup (User Frontend)
