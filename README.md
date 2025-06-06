@@ -32,11 +32,11 @@ Use the following credentials to log in as an admin:
 
 ### 🛠️ Admin/Doctor Features
 
--Secure admin login
--Dashboard with appointment statistics
--Manage doctor profiles
--Approve/reject appointments
--Update appointment statuses
+- Secure admin login
+- Dashboard with appointment statistics
+- Manage doctor profiles
+- Approve/reject appointments
+- Update appointment statuses
 
 ---
 
